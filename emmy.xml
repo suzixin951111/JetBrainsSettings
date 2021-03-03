@@ -1,9 +1,0 @@
-<application>
-  <component name="LuaSettings">
-    <option name="additionalSourcesRoot">
-      <array>
-        <option value="F:/UnityProject/MyGame/Client/Assets" />
-      </array>
-    </option>
-  </component>
-</application>
