@@ -1,4 +1,4 @@
-<keymap version="1" name="Windows copy" parent="$default">
+<keymap version="1" name="Default copy" parent="$default">
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
     <mouse-shortcut keystroke="button4" />
@@ -8,10 +8,19 @@
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="Console.TableResult.FindInGrid">
+    <keyboard-shortcut first-keystroke="alt f3" />
+  </action>
+  <action id="CopyElement" />
+  <action id="DatabaseView.CopyTable" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="EditorSelectWord" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+    <keyboard-shortcut first-keystroke="alt back_slash" />
+  </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="alt f3" />
   </action>
@@ -25,12 +34,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl n" />
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="Graph.ApplyCurrentLayout" />
   <action id="NextTab" />
   <action id="ParameterInfo" />
   <action id="PreviousTab" />
-  <action id="ProjectView.ShowMembers">
-    <keyboard-shortcut first-keystroke="alt back_slash" />
-  </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl r" />
     <keyboard-shortcut first-keystroke="ctrl f" />
@@ -39,6 +46,17 @@
     <keyboard-shortcut first-keystroke="shift ctrl r" />
     <keyboard-shortcut first-keystroke="shift ctrl f" />
   </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="RiderUnitTestSessionRerunFailedTestsTwAction" />
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="ToggleBookmark" />
   <action id="Vcs.Log.GoToRef">
     <keyboard-shortcut first-keystroke="alt f3" />
   </action>
