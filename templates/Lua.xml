@@ -10,6 +10,7 @@
     <variable name="A_FUNC_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="COMMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="iof" value="print(&quot;-------------------- $VAR$ = &quot;, table.tostring($VAR$))$END$" description="print" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
