@@ -57,7 +57,14 @@
     <keyboard-shortcut first-keystroke="f10" />
   </action>
   <action id="ToggleBookmark" />
+  <action id="UpdateRunningApplication" />
   <action id="Vcs.Log.GoToRef">
     <keyboard-shortcut first-keystroke="alt f3" />
+  </action>
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
   </action>
 </keymap>
