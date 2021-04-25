@@ -1,5 +1,6 @@
-<keymap version="1" name="Windows copy" parent="$default">
+<keymap version="1" name="Default copy" parent="$default">
   <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
@@ -10,6 +11,8 @@
   <action id="Console.TableResult.FindInGrid">
     <keyboard-shortcut first-keystroke="alt f3" />
   </action>
+  <action id="CopyElement" />
+  <action id="DatabaseView.CopyTable" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="EditorSelectWord" />
@@ -23,6 +26,7 @@
   </action>
   <action id="FindInPath" />
   <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
@@ -30,23 +34,30 @@
     <keyboard-shortcut first-keystroke="shift ctrl n" />
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="Graph.ApplyCurrentLayout" />
   <action id="NextTab" />
   <action id="ParameterInfo" />
   <action id="PreviousTab" />
   <action id="Replace">
+    <keyboard-shortcut first-keystroke="ctrl r" />
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
     <keyboard-shortcut first-keystroke="shift ctrl f" />
   </action>
-  <action id="UpdateRunningApplication" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="RiderUnitTestSessionRerunFailedTestsTwAction" />
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="ToggleBookmark" />
   <action id="Vcs.Log.GoToRef">
     <keyboard-shortcut first-keystroke="alt f3" />
-  </action>
-  <action id="android.deploy.ApplyChanges">
-    <keyboard-shortcut first-keystroke="ctrl f10" />
-  </action>
-  <action id="android.deploy.CodeSwap">
-    <keyboard-shortcut first-keystroke="ctrl alt f10" />
   </action>
 </keymap>

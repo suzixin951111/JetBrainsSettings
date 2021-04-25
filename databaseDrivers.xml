@@ -110,9 +110,5 @@
       <artifact name="Snowflake" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="mongo">
-      <artifact name="MongoDB" use="true" />
-      <option name="auto-sync" value="true" />
-    </driver>
   </component>
 </application>
